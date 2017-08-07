@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E7221F384F440045942D /* CZLHomeViewController.m */; };
+		9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E71C1F384F200045942D /* CZLMineViewController.m */; };
 		937660AF1F380B1D0063A961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660AE1F380B1D0063A961 /* main.m */; };
 		937660BA1F380B1D0063A961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937660B91F380B1D0063A961 /* Assets.xcassets */; };
 		937660BD1F380B1D0063A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */; };
@@ -16,8 +18,6 @@
 		937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660EA1F3813C90063A961 /* CZLBaseViewController.m */; };
 		937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660ED1F3814000063A961 /* CZLTabBarController.m */; };
 		937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F01F38142E0063A961 /* CZLNavigationController.m */; };
-		937660F41F38161A0063A961 /* CZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F31F38161A0063A961 /* CZLHomeViewController.m */; };
-		937660F71F3816310063A961 /* CZLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F61F3816310063A961 /* CZLMineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9372E71B1F384F200045942D /* CZLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLMineViewController.h; sourceTree = "<group>"; };
+		9372E71C1F384F200045942D /* CZLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLMineViewController.m; sourceTree = "<group>"; };
+		9372E7211F384F440045942D /* CZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLHomeViewController.h; sourceTree = "<group>"; };
+		9372E7221F384F440045942D /* CZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLHomeViewController.m; sourceTree = "<group>"; };
+		9372E7261F384F5E0045942D /* CZLHomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLHomeHeader.h; sourceTree = "<group>"; };
+		9372E7271F384F730045942D /* CZLMineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLMineHeader.h; sourceTree = "<group>"; };
 		937660AA1F380B1D0063A961 /* CZLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937660AE1F380B1D0063A961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		937660B91F380B1D0063A961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,10 +63,6 @@
 		937660ED1F3814000063A961 /* CZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLTabBarController.m; sourceTree = "<group>"; };
 		937660EF1F38142E0063A961 /* CZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLNavigationController.h; sourceTree = "<group>"; };
 		937660F01F38142E0063A961 /* CZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLNavigationController.m; sourceTree = "<group>"; };
-		937660F21F38161A0063A961 /* CZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLHomeViewController.h; sourceTree = "<group>"; };
-		937660F31F38161A0063A961 /* CZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLHomeViewController.m; sourceTree = "<group>"; };
-		937660F51F3816310063A961 /* CZLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLMineViewController.h; sourceTree = "<group>"; };
-		937660F61F3816310063A961 /* CZLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLMineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9372E71A1F384F200045942D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9372E71B1F384F200045942D /* CZLMineViewController.h */,
+				9372E71C1F384F200045942D /* CZLMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9372E71D1F384F200045942D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9372E71E1F384F200045942D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9372E7201F384F440045942D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9372E7211F384F440045942D /* CZLHomeViewController.h */,
+				9372E7221F384F440045942D /* CZLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9372E7231F384F440045942D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9372E7241F384F440045942D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		937660A11F380B1D0063A961 = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +216,10 @@
 		937660E21F380EEA0063A961 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				937660F21F38161A0063A961 /* CZLHomeViewController.h */,
-				937660F31F38161A0063A961 /* CZLHomeViewController.m */,
+				9372E7261F384F5E0045942D /* CZLHomeHeader.h */,
+				9372E7201F384F440045942D /* Controller */,
+				9372E7231F384F440045942D /* Model */,
+				9372E7241F384F440045942D /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -184,8 +234,10 @@
 		937660E41F380EEA0063A961 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				937660F51F3816310063A961 /* CZLMineViewController.h */,
-				937660F61F3816310063A961 /* CZLMineViewController.m */,
+				9372E7271F384F730045942D /* CZLMineHeader.h */,
+				9372E71A1F384F200045942D /* Controller */,
+				9372E71D1F384F200045942D /* Model */,
+				9372E71E1F384F200045942D /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -338,11 +390,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */,
+				9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */,
 				937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */,
-				937660F71F3816310063A961 /* CZLMineViewController.m in Sources */,
 				937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */,
 				937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */,
-				937660F41F38161A0063A961 /* CZLHomeViewController.m in Sources */,
 				937660E81F38119F0063A961 /* CZLAppDelegate.m in Sources */,
 				937660AF1F380B1D0063A961 /* main.m in Sources */,
 			);
@@ -570,6 +622,7 @@
 				937660D91F380B1D0063A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		937660DA1F380B1D0063A961 /* Build configuration list for PBXNativeTarget "CZLPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +631,7 @@
 				937660DC1F380B1D0063A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		937660DD1F380B1D0063A961 /* Build configuration list for PBXNativeTarget "CZLPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +640,7 @@
 				937660DF1F380B1D0063A961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

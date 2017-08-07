@@ -23,7 +23,6 @@
     [self initNavigation];
 }
 
-
 - (void)initNavigation {
     
     CZLNavigationController *homeNavigationController = [[CZLNavigationController alloc]initWithRootViewController:[CZLHomeViewController new]];
