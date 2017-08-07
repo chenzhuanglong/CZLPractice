@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		937660AF1F380B1D0063A961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660AE1F380B1D0063A961 /* main.m */; };
-		937660B21F380B1D0063A961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660B11F380B1D0063A961 /* AppDelegate.m */; };
-		937660B51F380B1D0063A961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660B41F380B1D0063A961 /* ViewController.m */; };
-		937660B81F380B1D0063A961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937660B61F380B1D0063A961 /* Main.storyboard */; };
 		937660BA1F380B1D0063A961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937660B91F380B1D0063A961 /* Assets.xcassets */; };
 		937660BD1F380B1D0063A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */; };
 		937660C81F380B1D0063A961 /* CZLPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660C71F380B1D0063A961 /* CZLPracticeTests.m */; };
 		937660D31F380B1D0063A961 /* CZLPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660D21F380B1D0063A961 /* CZLPracticeUITests.m */; };
+		937660E81F38119F0063A961 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660E71F38119F0063A961 /* CZLAppDelegate.m */; };
+		937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660EA1F3813C90063A961 /* CZLBaseViewController.m */; };
+		937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660ED1F3814000063A961 /* CZLTabBarController.m */; };
+		937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F01F38142E0063A961 /* CZLNavigationController.m */; };
+		937660F41F38161A0063A961 /* CZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F31F38161A0063A961 /* CZLHomeViewController.m */; };
+		937660F71F3816310063A961 /* CZLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F61F3816310063A961 /* CZLMineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,6 @@
 /* Begin PBXFileReference section */
 		937660AA1F380B1D0063A961 /* CZLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937660AE1F380B1D0063A961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		937660B01F380B1D0063A961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		937660B11F380B1D0063A961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		937660B31F380B1D0063A961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		937660B41F380B1D0063A961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		937660B71F380B1D0063A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937660B91F380B1D0063A961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937660BC1F380B1D0063A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937660BE1F380B1D0063A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,18 @@
 		937660CE1F380B1D0063A961 /* CZLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937660D21F380B1D0063A961 /* CZLPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLPracticeUITests.m; sourceTree = "<group>"; };
 		937660D41F380B1D0063A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937660E61F38119F0063A961 /* CZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
+		937660E71F38119F0063A961 /* CZLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLAppDelegate.m; sourceTree = "<group>"; };
+		937660E91F3813C90063A961 /* CZLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLBaseViewController.h; sourceTree = "<group>"; };
+		937660EA1F3813C90063A961 /* CZLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLBaseViewController.m; sourceTree = "<group>"; };
+		937660EC1F3814000063A961 /* CZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLTabBarController.h; sourceTree = "<group>"; };
+		937660ED1F3814000063A961 /* CZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLTabBarController.m; sourceTree = "<group>"; };
+		937660EF1F38142E0063A961 /* CZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLNavigationController.h; sourceTree = "<group>"; };
+		937660F01F38142E0063A961 /* CZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLNavigationController.m; sourceTree = "<group>"; };
+		937660F21F38161A0063A961 /* CZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLHomeViewController.h; sourceTree = "<group>"; };
+		937660F31F38161A0063A961 /* CZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLHomeViewController.m; sourceTree = "<group>"; };
+		937660F51F3816310063A961 /* CZLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLMineViewController.h; sourceTree = "<group>"; };
+		937660F61F3816310063A961 /* CZLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLMineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,7 @@
 		937660AC1F380B1D0063A961 /* CZLPractice */ = {
 			isa = PBXGroup;
 			children = (
-				937660B01F380B1D0063A961 /* AppDelegate.h */,
-				937660B11F380B1D0063A961 /* AppDelegate.m */,
-				937660B31F380B1D0063A961 /* ViewController.h */,
-				937660B41F380B1D0063A961 /* ViewController.m */,
-				937660B61F380B1D0063A961 /* Main.storyboard */,
+				937660E01F380EEA0063A961 /* Classes */,
 				937660B91F380B1D0063A961 /* Assets.xcassets */,
 				937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */,
 				937660BE1F380B1D0063A961 /* Info.plist */,
@@ -138,6 +144,65 @@
 				937660D41F380B1D0063A961 /* Info.plist */,
 			);
 			path = CZLPracticeUITests;
+			sourceTree = "<group>";
+		};
+		937660E01F380EEA0063A961 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				937660E21F380EEA0063A961 /* Home */,
+				937660E41F380EEA0063A961 /* Mine */,
+				937660E11F380EEA0063A961 /* Category */,
+				937660E31F380EEA0063A961 /* Main */,
+				937660E51F380EEA0063A961 /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		937660E11F380EEA0063A961 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		937660E21F380EEA0063A961 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				937660F21F38161A0063A961 /* CZLHomeViewController.h */,
+				937660F31F38161A0063A961 /* CZLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		937660E31F380EEA0063A961 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		937660E41F380EEA0063A961 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				937660F51F3816310063A961 /* CZLMineViewController.h */,
+				937660F61F3816310063A961 /* CZLMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		937660E51F380EEA0063A961 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				937660E61F38119F0063A961 /* CZLAppDelegate.h */,
+				937660E71F38119F0063A961 /* CZLAppDelegate.m */,
+				937660EC1F3814000063A961 /* CZLTabBarController.h */,
+				937660ED1F3814000063A961 /* CZLTabBarController.m */,
+				937660E91F3813C90063A961 /* CZLBaseViewController.h */,
+				937660EA1F3813C90063A961 /* CZLBaseViewController.m */,
+				937660EF1F38142E0063A961 /* CZLNavigationController.h */,
+				937660F01F38142E0063A961 /* CZLNavigationController.m */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +314,6 @@
 			files = (
 				937660BD1F380B1D0063A961 /* LaunchScreen.storyboard in Resources */,
 				937660BA1F380B1D0063A961 /* Assets.xcassets in Resources */,
-				937660B81F380B1D0063A961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937660B51F380B1D0063A961 /* ViewController.m in Sources */,
-				937660B21F380B1D0063A961 /* AppDelegate.m in Sources */,
+				937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */,
+				937660F71F3816310063A961 /* CZLMineViewController.m in Sources */,
+				937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */,
+				937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */,
+				937660F41F38161A0063A961 /* CZLHomeViewController.m in Sources */,
+				937660E81F38119F0063A961 /* CZLAppDelegate.m in Sources */,
 				937660AF1F380B1D0063A961 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,14 +380,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		937660B61F380B1D0063A961 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				937660B71F380B1D0063A961 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
