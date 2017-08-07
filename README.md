@@ -1,4 +1,4 @@
 # CZLPractice
-This is my exercise library!
-#Licenses
+This is my practice library!
+# Licenses
 All source code is licensed under the MIT License.
