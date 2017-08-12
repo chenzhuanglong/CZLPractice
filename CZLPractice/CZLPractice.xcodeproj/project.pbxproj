@@ -21,6 +21,8 @@
 		93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F211F385B20002E4A28 /* UIView+CZLCategory.m */; };
 		93A65F251F385C50002E4A28 /* CZLTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F241F385C50002E4A28 /* CZLTestView.m */; };
 		93A65F311F38651F002E4A28 /* UIColor+CZLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F301F38651F002E4A28 /* UIColor+CZLCategory.m */; };
+		93D2CCF81F3ED17500C77872 /* CZLCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2CCF71F3ED17500C77872 /* CZLCustomView.m */; };
+		93D2CCFB1F3ED25600C77872 /* CZLCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		93A65F2F1F38651F002E4A28 /* UIColor+CZLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZLCategory.h"; sourceTree = "<group>"; };
 		93A65F301F38651F002E4A28 /* UIColor+CZLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZLCategory.m"; sourceTree = "<group>"; };
 		93A65F321F38679D002E4A28 /* CZLCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLCategoryHeader.h; sourceTree = "<group>"; };
+		93D2CCF61F3ED17500C77872 /* CZLCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomView.h; sourceTree = "<group>"; };
+		93D2CCF71F3ED17500C77872 /* CZLCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomView.m; sourceTree = "<group>"; };
+		93D2CCF91F3ED25600C77872 /* CZLCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomModel.h; sourceTree = "<group>"; };
+		93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +276,10 @@
 				937660EA1F3813C90063A961 /* CZLBaseViewController.m */,
 				937660EF1F38142E0063A961 /* CZLNavigationController.h */,
 				937660F01F38142E0063A961 /* CZLNavigationController.m */,
+				93D2CCF61F3ED17500C77872 /* CZLCustomView.h */,
+				93D2CCF71F3ED17500C77872 /* CZLCustomView.m */,
+				93D2CCF91F3ED25600C77872 /* CZLCustomModel.h */,
+				93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -407,10 +417,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D2CCFB1F3ED25600C77872 /* CZLCustomModel.m in Sources */,
 				9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */,
 				9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */,
 				93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */,
 				937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */,
+				93D2CCF81F3ED17500C77872 /* CZLCustomView.m in Sources */,
 				93A65F251F385C50002E4A28 /* CZLTestView.m in Sources */,
 				93A65F311F38651F002E4A28 /* UIColor+CZLCategory.m in Sources */,
 				937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */,

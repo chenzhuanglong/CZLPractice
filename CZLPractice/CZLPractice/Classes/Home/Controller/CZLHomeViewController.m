@@ -8,7 +8,6 @@
 
 #import "CZLHomeViewController.h"
 
-
 @interface CZLHomeViewController ()
 
 @end
@@ -17,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+
 }
 
 
