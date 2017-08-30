@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9364E74C1F5646BF00FC9980 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */; };
+		9364E74D1F5646BF00FC9980 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7431F5646BF00FC9980 /* CZLBaseViewController.m */; };
+		9364E74E1F5646BF00FC9980 /* CZLCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7451F5646BF00FC9980 /* CZLCustomModel.m */; };
+		9364E74F1F5646BF00FC9980 /* CZLCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7471F5646BF00FC9980 /* CZLCustomView.m */; };
+		9364E7501F5646BF00FC9980 /* CZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7491F5646BF00FC9980 /* CZLNavigationController.m */; };
+		9364E7511F5646BF00FC9980 /* CZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E74B1F5646BF00FC9980 /* CZLTabBarController.m */; };
+		9364E7571F566D1400FC9980 /* CZLOperateSqlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7561F566D1400FC9980 /* CZLOperateSqlViewController.m */; };
+		9364E75A1F566D4800FC9980 /* CZLSQLite3TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */; };
 		9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E7221F384F440045942D /* CZLHomeViewController.m */; };
 		9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E71C1F384F200045942D /* CZLMineViewController.m */; };
 		937660AF1F380B1D0063A961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660AE1F380B1D0063A961 /* main.m */; };
@@ -14,15 +22,11 @@
 		937660BD1F380B1D0063A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */; };
 		937660C81F380B1D0063A961 /* CZLPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660C71F380B1D0063A961 /* CZLPracticeTests.m */; };
 		937660D31F380B1D0063A961 /* CZLPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660D21F380B1D0063A961 /* CZLPracticeUITests.m */; };
-		937660E81F38119F0063A961 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660E71F38119F0063A961 /* CZLAppDelegate.m */; };
-		937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660EA1F3813C90063A961 /* CZLBaseViewController.m */; };
-		937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660ED1F3814000063A961 /* CZLTabBarController.m */; };
-		937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660F01F38142E0063A961 /* CZLNavigationController.m */; };
+		937BFCB31F5509D4004E360D /* CZLSQLiteApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFCB21F5509D4004E360D /* CZLSQLiteApply.m */; };
+		937BFCB61F550CAA004E360D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 937BFCB51F550CAA004E360D /* libsqlite3.tbd */; };
 		93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F211F385B20002E4A28 /* UIView+CZLCategory.m */; };
 		93A65F251F385C50002E4A28 /* CZLTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F241F385C50002E4A28 /* CZLTestView.m */; };
 		93A65F311F38651F002E4A28 /* UIColor+CZLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F301F38651F002E4A28 /* UIColor+CZLCategory.m */; };
-		93D2CCF81F3ED17500C77872 /* CZLCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2CCF71F3ED17500C77872 /* CZLCustomView.m */; };
-		93D2CCFB1F3ED25600C77872 /* CZLCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9364E7401F5646BF00FC9980 /* CZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
+		9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLAppDelegate.m; sourceTree = "<group>"; };
+		9364E7421F5646BF00FC9980 /* CZLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLBaseViewController.h; sourceTree = "<group>"; };
+		9364E7431F5646BF00FC9980 /* CZLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLBaseViewController.m; sourceTree = "<group>"; };
+		9364E7441F5646BF00FC9980 /* CZLCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomModel.h; sourceTree = "<group>"; };
+		9364E7451F5646BF00FC9980 /* CZLCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomModel.m; sourceTree = "<group>"; };
+		9364E7461F5646BF00FC9980 /* CZLCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomView.h; sourceTree = "<group>"; };
+		9364E7471F5646BF00FC9980 /* CZLCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomView.m; sourceTree = "<group>"; };
+		9364E7481F5646BF00FC9980 /* CZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLNavigationController.h; sourceTree = "<group>"; };
+		9364E7491F5646BF00FC9980 /* CZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLNavigationController.m; sourceTree = "<group>"; };
+		9364E74A1F5646BF00FC9980 /* CZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLTabBarController.h; sourceTree = "<group>"; };
+		9364E74B1F5646BF00FC9980 /* CZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLTabBarController.m; sourceTree = "<group>"; };
+		9364E7551F566D1400FC9980 /* CZLOperateSqlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLOperateSqlViewController.h; sourceTree = "<group>"; };
+		9364E7561F566D1400FC9980 /* CZLOperateSqlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLOperateSqlViewController.m; sourceTree = "<group>"; };
+		9364E7581F566D4800FC9980 /* CZLSQLite3TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLSQLite3TestViewController.h; sourceTree = "<group>"; };
+		9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLSQLite3TestViewController.m; sourceTree = "<group>"; };
 		9372E71B1F384F200045942D /* CZLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLMineViewController.h; sourceTree = "<group>"; };
 		9372E71C1F384F200045942D /* CZLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLMineViewController.m; sourceTree = "<group>"; };
 		9372E7211F384F440045942D /* CZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLHomeViewController.h; sourceTree = "<group>"; };
@@ -60,14 +80,9 @@
 		937660CE1F380B1D0063A961 /* CZLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937660D21F380B1D0063A961 /* CZLPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLPracticeUITests.m; sourceTree = "<group>"; };
 		937660D41F380B1D0063A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		937660E61F38119F0063A961 /* CZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
-		937660E71F38119F0063A961 /* CZLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLAppDelegate.m; sourceTree = "<group>"; };
-		937660E91F3813C90063A961 /* CZLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLBaseViewController.h; sourceTree = "<group>"; };
-		937660EA1F3813C90063A961 /* CZLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLBaseViewController.m; sourceTree = "<group>"; };
-		937660EC1F3814000063A961 /* CZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLTabBarController.h; sourceTree = "<group>"; };
-		937660ED1F3814000063A961 /* CZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLTabBarController.m; sourceTree = "<group>"; };
-		937660EF1F38142E0063A961 /* CZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLNavigationController.h; sourceTree = "<group>"; };
-		937660F01F38142E0063A961 /* CZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLNavigationController.m; sourceTree = "<group>"; };
+		937BFCB11F5509D4004E360D /* CZLSQLiteApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLSQLiteApply.h; sourceTree = "<group>"; };
+		937BFCB21F5509D4004E360D /* CZLSQLiteApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLSQLiteApply.m; sourceTree = "<group>"; };
+		937BFCB51F550CAA004E360D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		93A65F201F385B20002E4A28 /* UIView+CZLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZLCategory.h"; sourceTree = "<group>"; };
 		93A65F211F385B20002E4A28 /* UIView+CZLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZLCategory.m"; sourceTree = "<group>"; };
 		93A65F231F385C50002E4A28 /* CZLTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLTestView.h; sourceTree = "<group>"; };
@@ -75,10 +90,6 @@
 		93A65F2F1F38651F002E4A28 /* UIColor+CZLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZLCategory.h"; sourceTree = "<group>"; };
 		93A65F301F38651F002E4A28 /* UIColor+CZLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZLCategory.m"; sourceTree = "<group>"; };
 		93A65F321F38679D002E4A28 /* CZLCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLCategoryHeader.h; sourceTree = "<group>"; };
-		93D2CCF61F3ED17500C77872 /* CZLCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomView.h; sourceTree = "<group>"; };
-		93D2CCF71F3ED17500C77872 /* CZLCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomView.m; sourceTree = "<group>"; };
-		93D2CCF91F3ED25600C77872 /* CZLCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLCustomModel.h; sourceTree = "<group>"; };
-		93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLCustomModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937BFCB61F550CAA004E360D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,11 +118,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9364E73F1F5646BF00FC9980 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9364E7401F5646BF00FC9980 /* CZLAppDelegate.h */,
+				9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */,
+				9364E7421F5646BF00FC9980 /* CZLBaseViewController.h */,
+				9364E7431F5646BF00FC9980 /* CZLBaseViewController.m */,
+				9364E7441F5646BF00FC9980 /* CZLCustomModel.h */,
+				9364E7451F5646BF00FC9980 /* CZLCustomModel.m */,
+				9364E7461F5646BF00FC9980 /* CZLCustomView.h */,
+				9364E7471F5646BF00FC9980 /* CZLCustomView.m */,
+				9364E7481F5646BF00FC9980 /* CZLNavigationController.h */,
+				9364E7491F5646BF00FC9980 /* CZLNavigationController.m */,
+				9364E74A1F5646BF00FC9980 /* CZLTabBarController.h */,
+				9364E74B1F5646BF00FC9980 /* CZLTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		9372E71A1F384F200045942D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				9372E71B1F384F200045942D /* CZLMineViewController.h */,
 				9372E71C1F384F200045942D /* CZLMineViewController.m */,
+				9364E7551F566D1400FC9980 /* CZLOperateSqlViewController.h */,
+				9364E7561F566D1400FC9980 /* CZLOperateSqlViewController.m */,
+				9364E7581F566D4800FC9980 /* CZLSQLite3TestViewController.h */,
+				9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +196,7 @@
 				937660C61F380B1D0063A961 /* CZLPracticeTests */,
 				937660D11F380B1D0063A961 /* CZLPracticeUITests */,
 				937660AB1F380B1D0063A961 /* Products */,
+				937BFCB41F550CAA004E360D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +255,7 @@
 				937660E41F380EEA0063A961 /* Mine */,
 				937660E31F380EEA0063A961 /* Main */,
 				937660E11F380EEA0063A961 /* Category */,
+				9364E73F1F5646BF00FC9980 /* Base */,
 				937660E51F380EEA0063A961 /* Root */,
 			);
 			path = Classes;
@@ -250,6 +287,7 @@
 		937660E31F380EEA0063A961 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				937BFCB01F55082E004E360D /* SQLite */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -268,20 +306,25 @@
 		937660E51F380EEA0063A961 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				937660E61F38119F0063A961 /* CZLAppDelegate.h */,
-				937660E71F38119F0063A961 /* CZLAppDelegate.m */,
-				937660EC1F3814000063A961 /* CZLTabBarController.h */,
-				937660ED1F3814000063A961 /* CZLTabBarController.m */,
-				937660E91F3813C90063A961 /* CZLBaseViewController.h */,
-				937660EA1F3813C90063A961 /* CZLBaseViewController.m */,
-				937660EF1F38142E0063A961 /* CZLNavigationController.h */,
-				937660F01F38142E0063A961 /* CZLNavigationController.m */,
-				93D2CCF61F3ED17500C77872 /* CZLCustomView.h */,
-				93D2CCF71F3ED17500C77872 /* CZLCustomView.m */,
-				93D2CCF91F3ED25600C77872 /* CZLCustomModel.h */,
-				93D2CCFA1F3ED25600C77872 /* CZLCustomModel.m */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		937BFCB01F55082E004E360D /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				937BFCB11F5509D4004E360D /* CZLSQLiteApply.h */,
+				937BFCB21F5509D4004E360D /* CZLSQLiteApply.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		937BFCB41F550CAA004E360D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937BFCB51F550CAA004E360D /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,18 +460,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D2CCFB1F3ED25600C77872 /* CZLCustomModel.m in Sources */,
+				9364E75A1F566D4800FC9980 /* CZLSQLite3TestViewController.m in Sources */,
+				9364E74E1F5646BF00FC9980 /* CZLCustomModel.m in Sources */,
 				9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */,
 				9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */,
+				9364E74D1F5646BF00FC9980 /* CZLBaseViewController.m in Sources */,
+				9364E74F1F5646BF00FC9980 /* CZLCustomView.m in Sources */,
 				93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */,
-				937660EB1F3813C90063A961 /* CZLBaseViewController.m in Sources */,
-				93D2CCF81F3ED17500C77872 /* CZLCustomView.m in Sources */,
+				9364E7571F566D1400FC9980 /* CZLOperateSqlViewController.m in Sources */,
 				93A65F251F385C50002E4A28 /* CZLTestView.m in Sources */,
 				93A65F311F38651F002E4A28 /* UIColor+CZLCategory.m in Sources */,
-				937660EE1F3814000063A961 /* CZLTabBarController.m in Sources */,
-				937660F11F38142E0063A961 /* CZLNavigationController.m in Sources */,
-				937660E81F38119F0063A961 /* CZLAppDelegate.m in Sources */,
+				9364E74C1F5646BF00FC9980 /* CZLAppDelegate.m in Sources */,
+				9364E7501F5646BF00FC9980 /* CZLNavigationController.m in Sources */,
+				9364E7511F5646BF00FC9980 /* CZLTabBarController.m in Sources */,
 				937660AF1F380B1D0063A961 /* main.m in Sources */,
+				937BFCB31F5509D4004E360D /* CZLSQLiteApply.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,12 @@
 //
 
 #import "CZLMineViewController.h"
+#import "CZLSQLite3TestViewController.h"
 
-@interface CZLMineViewController ()
+@interface CZLMineViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic, strong)UITableView *middleTableView;
+@property (nonatomic, strong)NSArray *middleData;
 
 @end
 
@@ -16,8 +20,71 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
+    [self loadData];
 }
+
+
+- (UITableView *)middleTableView {
+ 
+    if (!_middleTableView){
+        UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,[[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) style:UITableViewStylePlain];
+        tableView.showsVerticalScrollIndicator = NO;
+        tableView.showsHorizontalScrollIndicator=NO;
+        tableView.dataSource = self;
+        tableView.delegate = self;
+        [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableView class])];
+        [self.view addSubview:tableView];
+        
+        _middleTableView = tableView;
+
+    }
+    return _middleTableView;
+}
+
+- (NSArray *)middleData {
+    if (!_middleData){
+        NSArray *data = [NSArray array];
+        _middleData = data;
+    }
+    return _middleData;
+}
+
+- (void)loadData {
+    self.middleData = @[@"测试一",@"测试二",@"测试三",@"测试四",@"测试五",@"测试六"];
+    [self.middleTableView reloadData];
+}
+
+#pragma mark - delegate 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.middleData.count;
+};
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableView class])];
+    cell.accessoryType    = UITableViewCellAccessoryDisclosureIndicator;
+    cell.textLabel.text = self.middleData[indexPath.row];
+    
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 44;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row == 0){
+        CZLSQLite3TestViewController *VC = [CZLSQLite3TestViewController new];
+        VC.title = @"哈哈";
+        [self.navigationController pushViewController:VC animated:YES];
+    }
+
+}
+
+
+
 
 
 
