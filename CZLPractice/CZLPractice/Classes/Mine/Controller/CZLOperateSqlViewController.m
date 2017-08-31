@@ -7,21 +7,18 @@
 //
 
 #import "CZLOperateSqlViewController.h"
-#import "CZLSQLiteApply.h"
+
 
 @interface CZLOperateSqlViewController ()
 
-@property (nonatomic, strong) UITextField *idValue;
-@property (nonatomic, strong) UITextField *textValue;
-@property (nonatomic, strong) UITextField *textName;
-@property (nonatomic, strong) sqlTestList *sqlValue;
-@property (nonatomic) int oprateType;
+
 
 @end
 
 @implementation CZLOperateSqlViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     UIBarButtonItem *saveButton = [[UIBarButtonItem alloc]
