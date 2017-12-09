@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		936AE25D1FDBB94900CD9F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE25C1FDBB94900CD9F18 /* AppDelegate.swift */; };
-		936AE2621FDBB94900CD9F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936AE2601FDBB94900CD9F18 /* Main.storyboard */; };
 		936AE2641FDBB94900CD9F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936AE2631FDBB94900CD9F18 /* Assets.xcassets */; };
 		936AE2671FDBB94900CD9F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936AE2651FDBB94900CD9F18 /* LaunchScreen.storyboard */; };
+		936AE2741FDBBB0600CD9F18 /* ZLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2731FDBBB0600CD9F18 /* ZLTabBarController.swift */; };
+		936AE2761FDBBB3400CD9F18 /* ZLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2751FDBBB3400CD9F18 /* ZLBaseViewController.swift */; };
+		936AE27C1FDBBC0F00CD9F18 /* ZLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE27B1FDBBC0F00CD9F18 /* ZLMineViewController.swift */; };
+		936AE27E1FDBBC1C00CD9F18 /* ZLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE27D1FDBBC1C00CD9F18 /* ZLMainViewController.swift */; };
+		936AE2841FDBC6C800CD9F18 /* ZLUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2831FDBC6C800CD9F18 /* ZLUIColor+Extension.swift */; };
+		936AE2861FDBCE9A00CD9F18 /* ZLConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2851FDBCE9A00CD9F18 /* ZLConfiguration.swift */; };
+		936AE2881FDBD37100CD9F18 /* ZLScreenParmeters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2871FDBD37100CD9F18 /* ZLScreenParmeters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		936AE2591FDBB94900CD9F18 /* ZLSPAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSPAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936AE25C1FDBB94900CD9F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		936AE2611FDBB94900CD9F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		936AE2631FDBB94900CD9F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		936AE2661FDBB94900CD9F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		936AE2681FDBB94900CD9F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936AE2731FDBBB0600CD9F18 /* ZLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLTabBarController.swift; sourceTree = "<group>"; };
+		936AE2751FDBBB3400CD9F18 /* ZLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLBaseViewController.swift; sourceTree = "<group>"; };
+		936AE27B1FDBBC0F00CD9F18 /* ZLMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMineViewController.swift; sourceTree = "<group>"; };
+		936AE27D1FDBBC1C00CD9F18 /* ZLMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMainViewController.swift; sourceTree = "<group>"; };
+		936AE2831FDBC6C800CD9F18 /* ZLUIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZLUIColor+Extension.swift"; sourceTree = "<group>"; };
+		936AE2851FDBCE9A00CD9F18 /* ZLConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLConfiguration.swift; sourceTree = "<group>"; };
+		936AE2871FDBD37100CD9F18 /* ZLScreenParmeters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLScreenParmeters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				936AE25C1FDBB94900CD9F18 /* AppDelegate.swift */,
+				936AE2711FDBBAC300CD9F18 /* Classer */,
 				936AE26E1FDBB96F00CD9F18 /* SupportingFiles */,
 			);
 			path = ZLSPAR;
@@ -61,12 +74,73 @@
 		936AE26E1FDBB96F00CD9F18 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				936AE2601FDBB94900CD9F18 /* Main.storyboard */,
 				936AE2631FDBB94900CD9F18 /* Assets.xcassets */,
 				936AE2651FDBB94900CD9F18 /* LaunchScreen.storyboard */,
 				936AE2681FDBB94900CD9F18 /* Info.plist */,
+				936AE2851FDBCE9A00CD9F18 /* ZLConfiguration.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		936AE2711FDBBAC300CD9F18 /* Classer */ = {
+			isa = PBXGroup;
+			children = (
+				936AE27A1FDBBB7400CD9F18 /* Tools */,
+				936AE2791FDBBB6B00CD9F18 /* Other */,
+				936AE2781FDBBB4C00CD9F18 /* Mine */,
+				936AE2771FDBBB4000CD9F18 /* Main */,
+				936AE2721FDBBACE00CD9F18 /* Base */,
+			);
+			path = Classer;
+			sourceTree = "<group>";
+		};
+		936AE2721FDBBACE00CD9F18 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				936AE2731FDBBB0600CD9F18 /* ZLTabBarController.swift */,
+				936AE2751FDBBB3400CD9F18 /* ZLBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		936AE2771FDBBB4000CD9F18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				936AE27D1FDBBC1C00CD9F18 /* ZLMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		936AE2781FDBBB4C00CD9F18 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				936AE27B1FDBBC0F00CD9F18 /* ZLMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		936AE2791FDBBB6B00CD9F18 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		936AE27A1FDBBB7400CD9F18 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				936AE2801FDBBF7600CD9F18 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		936AE2801FDBBF7600CD9F18 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				936AE2831FDBC6C800CD9F18 /* ZLUIColor+Extension.swift */,
+				936AE2871FDBD37100CD9F18 /* ZLScreenParmeters.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +205,6 @@
 			files = (
 				936AE2671FDBB94900CD9F18 /* LaunchScreen.storyboard in Resources */,
 				936AE2641FDBB94900CD9F18 /* Assets.xcassets in Resources */,
-				936AE2621FDBB94900CD9F18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,21 +215,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936AE2861FDBCE9A00CD9F18 /* ZLConfiguration.swift in Sources */,
 				936AE25D1FDBB94900CD9F18 /* AppDelegate.swift in Sources */,
+				936AE2741FDBBB0600CD9F18 /* ZLTabBarController.swift in Sources */,
+				936AE2881FDBD37100CD9F18 /* ZLScreenParmeters.swift in Sources */,
+				936AE2761FDBBB3400CD9F18 /* ZLBaseViewController.swift in Sources */,
+				936AE2841FDBC6C800CD9F18 /* ZLUIColor+Extension.swift in Sources */,
+				936AE27C1FDBBC0F00CD9F18 /* ZLMineViewController.swift in Sources */,
+				936AE27E1FDBBC1C00CD9F18 /* ZLMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		936AE2601FDBB94900CD9F18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				936AE2611FDBB94900CD9F18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		936AE2651FDBB94900CD9F18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,7 +354,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VLGW4U4963;
-				INFOPLIST_FILE = ZLSPAR/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLSPAR/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.ZLSPAR;
@@ -299,7 +371,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VLGW4U4963;
-				INFOPLIST_FILE = ZLSPAR/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLSPAR/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.ZLSPAR;
