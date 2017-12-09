@@ -21,7 +21,10 @@
 @synthesize searchBar;
 
 - (void)viewDidLoad{
-     
+    [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     CZLSQLiteApply *sqlSer = [[CZLSQLiteApply alloc] init];
     listData = [sqlSer getTestList];//先初始化那个专门用于存数据的类，才调用类获取数据的方法
     

@@ -31,9 +31,10 @@
     CZLNavigationController *mineNavigationController = [[CZLNavigationController alloc]initWithRootViewController:[CZLMineViewController new]];
     [mineNavigationController setTabBarImage:@"" selectedImage:@"" title:@"我的"];
     
+    
     self.viewControllers = @[homeNavigationController,mineNavigationController];
     
-    [CZLNavigationController setTabBarItemNormalColor:[UIColor redColor] andSelectedColor:[UIColor yellowColor] fontSize:10.0f];
+    [CZLNavigationController setTabBarItemNormalColor:[UIColor blueColor] andSelectedColor:[UIColor greenColor] fontSize:15.0f];
 }
 
 

@@ -21,22 +21,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadData];
+    
+    self.title = @"我的";
+    
+ 
+}
+- (void)viewSafeAreaInsetsDidChange {
+    [super viewSafeAreaInsetsDidChange];
 }
 
-
 - (UITableView *)middleTableView {
- 
     if (!_middleTableView){
         UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,[[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) style:UITableViewStylePlain];
         tableView.showsVerticalScrollIndicator = NO;
-        tableView.showsHorizontalScrollIndicator=NO;
+        tableView.showsHorizontalScrollIndicator = NO;
+        tableView.estimatedSectionHeaderHeight = 0;
+        tableView.estimatedSectionFooterHeight = 0;
         tableView.dataSource = self;
         tableView.delegate = self;
         [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableView class])];
         [self.view addSubview:tableView];
-        
         _middleTableView = tableView;
-
     }
     return _middleTableView;
 }

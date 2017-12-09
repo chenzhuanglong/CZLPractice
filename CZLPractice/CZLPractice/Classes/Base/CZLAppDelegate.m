@@ -84,7 +84,8 @@
 // ---------------------------------------------------------------------------------
 // iOS10新增：处理后台点击通知的代理方法
 // ---------------------------------------------------------------------------------
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
+    
     
 }
 

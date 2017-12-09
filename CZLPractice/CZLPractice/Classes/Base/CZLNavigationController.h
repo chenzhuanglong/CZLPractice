@@ -26,4 +26,6 @@
  @param size 字体大小
  */
 + (void)setTabBarItemNormalColor:(UIColor *)color andSelectedColor:(UIColor *)selectedColor fontSize:(CGFloat)size;
+
+
 @end

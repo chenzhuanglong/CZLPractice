@@ -34,6 +34,15 @@
     self.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.tabBarItem.title = title;
     
+
+    
+//    CAGradientLayer *gradientLayer = [[CAGradientLayer alloc] init];
+//    gradientLayer.colors = @[(__bridge id)[UIColor yellowColor].CGColor,(__bridge id)[UIColor yellowColor].CGColor,(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor redColor].CGColor];
+//    gradientLayer.startPoint = CGPointMake(0, 1);
+//    gradientLayer.endPoint = CGPointMake(1, 1);
+//    gradientLayer.frame = CGRectMake(0, 0, CGRectGetWidth(self.navigationController.view.frame), CGRectGetHeight(self.navigationController.view.frame));
+//    [self.tabBarItem.view.layer addSublayer:gradientLayer];
+
 }
 
 /**
@@ -48,7 +57,7 @@
     
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:selectedColor, NSForegroundColorAttributeName, [UIFont systemFontOfSize:size],NSFontAttributeName,nil] forState:UIControlStateSelected];
     // 标题向上偏移2.
-    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, -2)];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, 0)];
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
@@ -125,6 +134,8 @@
     
     return  YES;
 }
+
+
 
 
 @end

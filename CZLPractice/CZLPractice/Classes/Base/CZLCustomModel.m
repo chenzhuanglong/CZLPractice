@@ -14,9 +14,9 @@
 {
     return [[self alloc]initWithName:name icon:icon];
 }
+
 - (instancetype)initWithName:(NSString *)name icon:(NSString *)icon
 {
-    
     if (self = [super init]) {
         self.name = name;
         self.icon = icon;
