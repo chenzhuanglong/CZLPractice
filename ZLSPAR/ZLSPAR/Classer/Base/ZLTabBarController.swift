@@ -39,10 +39,10 @@ class ZLTabBarController: UITabBarController {
         let tabBarAppearance = UITabBarItem.appearance()
         tabBarAppearance.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : RGB(r: 135, g: 135, b: 135)], for: .normal)
         tabBarAppearance.setTitleTextAttributes([NSAttributedStringKey.foregroundColor : RGB(r: 254, g: 61, b: 189)], for: .selected)
-        tabBarAppearance.setTitleTextAttributes([NSAttributedStringKey.font :UIFont.systemFont(ofSize: 10)], for: .normal)
+    tabBarAppearance.setTitleTextAttributes([NSAttributedStringKey.font :UIFont.systemFont(ofSize: 10)], for: .normal)
         
         tabBarAppearance.titlePositionAdjustment = UIOffsetMake(0, -2)
-    }
+}
     
     
     
