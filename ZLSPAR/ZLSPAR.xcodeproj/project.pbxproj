@@ -49,6 +49,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		935EB8BD1FDF890D0022E571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		935EB8BE1FDFB3840022E571 /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
 		936AE2501FDBB94900CD9F18 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				936AE27B1FDBBC0F00CD9F18 /* ZLMineViewController.swift */,
+				935EB8BD1FDF890D0022E571 /* Model */,
 				9393FC751FDE69FE00E50521 /* View */,
 			);
 			path = Mine;
@@ -134,6 +149,7 @@
 		936AE27A1FDBBB7400CD9F18 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				935EB8BE1FDFB3840022E571 /* NetworkModel */,
 				936AE2801FDBBF7600CD9F18 /* Extension */,
 			);
 			path = Tools;

@@ -56,7 +56,7 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
         
         let ID = "cell"//设置标记
         
-        var  cell = ZLMineTableViewCell(style:.default, reuseIdentifier: ID)
+        let  cell = ZLMineTableViewCell(style:.default, reuseIdentifier: ID)
     
         cell.addMineTitle(title: "\(data[indexPath.item])")
         

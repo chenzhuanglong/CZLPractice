@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936499F01FE7C1620007D7BB /* ArcSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936499EF1FE7C1620007D7BB /* ArcSliderView.m */; };
 		9364E74C1F5646BF00FC9980 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */; };
 		9364E74D1F5646BF00FC9980 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7431F5646BF00FC9980 /* CZLBaseViewController.m */; };
 		9364E74E1F5646BF00FC9980 /* CZLCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7451F5646BF00FC9980 /* CZLCustomModel.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		936499EE1FE7C1610007D7BB /* ArcSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcSliderView.h; sourceTree = "<group>"; };
+		936499EF1FE7C1620007D7BB /* ArcSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcSliderView.m; sourceTree = "<group>"; };
 		9364E7401F5646BF00FC9980 /* CZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
 		9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLAppDelegate.m; sourceTree = "<group>"; };
 		9364E7421F5646BF00FC9980 /* CZLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLBaseViewController.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 		9372E71E1F384F200045942D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				936499EE1FE7C1610007D7BB /* ArcSliderView.h */,
+				936499EF1FE7C1620007D7BB /* ArcSliderView.m */,
 				93A65F231F385C50002E4A28 /* CZLTestView.h */,
 				93A65F241F385C50002E4A28 /* CZLTestView.m */,
 			);
@@ -474,6 +479,7 @@
 				9364E7501F5646BF00FC9980 /* CZLNavigationController.m in Sources */,
 				9364E7511F5646BF00FC9980 /* CZLTabBarController.m in Sources */,
 				937660AF1F380B1D0063A961 /* main.m in Sources */,
+				936499F01FE7C1620007D7BB /* ArcSliderView.m in Sources */,
 				937BFCB31F5509D4004E360D /* CZLSQLiteApply.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

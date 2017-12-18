@@ -22,8 +22,16 @@ class ZLMainViewController: ZLBaseViewController {
         
         
     }
+    
     @objc func tapped(_ button:UIButton) {
         button.backgroundColor = RandomColor;
+        
+        let alertController = UIAlertController(title: "标题", message: "这个是UIAlertController的默认样式", preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+        let okAction = UIAlertAction(title: "好的", style: .default, handler:nil)
+        alertController.addAction(cancelAction)
+        alertController.addAction(okAction)
+        self.present(alertController, animated: true, completion: nil)
         print(button.size,button.y,button.x,button.origin,button.top,button.bottom,button.left,button.right,button.centerY,button.centerX)
     }
 
