@@ -21,14 +21,14 @@ class ZLTabBarController: UITabBarController {
     
     func initMainView() {
         
-        let nav1 = UINavigationController.init(rootViewController: ZLMainViewController())
+        let nav1 = ZLNavigationController.init(rootViewController: ZLMainViewController())
         nav1.tabBarItem.image = UIImage.init(named: "Home_Normal")
         nav1.tabBarItem.selectedImage = UIImage.init(named: "Home_Normal_S")
         nav1.tabBarItem.title = "首页"
         nav1.tabBarItem.tag = 1
         
         
-        let nav2 = UINavigationController.init(rootViewController: ZLMineViewController())
+        let nav2 = ZLNavigationController.init(rootViewController: ZLMineViewController())
         nav2.tabBarItem.image = UIImage.init(named: "Home_Normal")
         nav2.tabBarItem.selectedImage = UIImage.init(named: "Home_Normal_S")
         nav2.tabBarItem.title = "我的"

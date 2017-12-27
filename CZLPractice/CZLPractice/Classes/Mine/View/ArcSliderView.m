@@ -87,56 +87,56 @@ typedef struct{
     self.circleLineWidth = 25;
     self.lineWidth = 1;
     
-    WEAKSELF;
+//    WEAKSELF;
     _addBtn = [[UIButton alloc]init];
     [_addBtn setImage:[UIImage imageNamed:@"Programe_add"] forState:UIControlStateNormal];
-    [_addBtn addClickBlock:^(UIButton *sender) {
-        [weakSelf setChangeNum:1];
-    } for:UIControlEventTouchUpInside];
+//    [_addBtn addClickBlock:^(UIButton *sender) {
+//        [weakSelf setChangeNum:1];
+//    } for:UIControlEventTouchUpInside];
     [self addSubview:_addBtn];
-    [_addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.mas_equalTo(0);
-        make.top.mas_equalTo(turn6(51));
-        make.size.mas_equalTo(CGSizeMake(turn6(15.75), turn6(15.75)));
-    }];
+//    [_addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.mas_equalTo(0);
+//        make.top.mas_equalTo(turn6(51));
+//        make.size.mas_equalTo(CGSizeMake(turn6(15.75), turn6(15.75)));
+//    }];
  
     _reduceBtn = [[UIButton alloc]init];
     [_reduceBtn setImage:[UIImage imageNamed:@"Programe_minus"] forState:UIControlStateNormal];
-    [_reduceBtn addClickBlock:^(UIButton *sender) {
-        [weakSelf setChangeNum:0];
-    } for:UIControlEventTouchUpInside];
+//    [_reduceBtn addClickBlock:^(UIButton *sender) {
+//        [weakSelf setChangeNum:0];
+//    } for:UIControlEventTouchUpInside];
     [self addSubview:_reduceBtn];
-    [_reduceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(0);
-        make.top.mas_equalTo(turn6(51));
-        make.size.mas_equalTo(CGSizeMake(turn6(15.75), turn6(15.75)));
-    }];
+//    [_reduceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(0);
+//        make.top.mas_equalTo(turn6(51));
+//        make.size.mas_equalTo(CGSizeMake(turn6(15.75), turn6(15.75)));
+//    }];
     
     _numView = [[UIView alloc]init];
     [self addSubview:_numView];
-    [_numView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(0);
-        make.top.mas_equalTo(turn6(59));
-        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
-    }];
+//    [_numView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.centerX.mas_equalTo(0);
+//        make.top.mas_equalTo(turn6(59));
+//        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
+//    }];
     
-    UIImageView * icon = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, turn6(39.65), turn6(19.96))];
+    UIImageView * icon = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 39.65, 19.96)];
     icon.image = [UIImage imageNamed:@"Programe_angles_box"];
     [_numView addSubview:icon];
-    [icon mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.and.bottom.and.right.and.left.mas_equalTo(0);
-        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
-    }];
+//    [icon mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.and.bottom.and.right.and.left.mas_equalTo(0);
+//        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
+//    }];
     
     self.numLable = [[UILabel alloc]init];
     self.numLable.font = [UIFont systemFontOfSize:18];
-    self.numLable .textColor     = ColorFromHex(0x777777);
+//    self.numLable .textColor     = ColorFromHex(0x777777);
     self.numLable .textAlignment = NSTextAlignmentCenter;
     [_numView addSubview:self.numLable];
-    [self.numLable  mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.mas_equalTo(0);
-        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
-    }];
+//    [self.numLable  mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.mas_equalTo(0);
+//        make.size.mas_equalTo(CGSizeMake(turn6(39.65), turn6(19.96)));
+//    }];
     
 }
 
@@ -266,8 +266,8 @@ typedef struct{
     CGContextRef context = UIGraphicsGetCurrentContext();
     //    CGContextSetLineWidth(context, self.circleLineWidth);
     
-    UIColor *startCircleColor = ColorFromHex(0xBABABA);
-    
+//    UIColor *startCircleColor = ColorFromHex(0xBABABA);
+    UIColor *startCircleColor = [UIColor blackColor];
     //    UIColor *markBackcolor = [UIColor whiteColor];
     
     SectorDrawingInformation drawInf = [self sectorToDrawInf:sector];
@@ -325,7 +325,8 @@ typedef struct{
     CGContextStrokePath(context);
     
     //标记
-    UIColor *markingColor = ColorFromHex(0x5B94FD);
+//    UIColor *markingColor = ColorFromHex(0x5B94FD);
+    UIColor *markingColor = [UIColor yellowColor];
     CGContextSetLineWidth(context, 10);
     CGContextSaveGState(context);
     [[markingColor colorWithAlphaComponent:drawInf.startMarkerAlpha] setStroke];

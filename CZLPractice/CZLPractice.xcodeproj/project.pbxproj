@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932B35381FF0A532009BA104 /* CZLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932B35371FF0A532009BA104 /* CZLTestViewController.m */; };
+		932B353B1FF0A5B5009BA104 /* CZLGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 932B353A1FF0A5B5009BA104 /* CZLGraphics.m */; };
 		936499F01FE7C1620007D7BB /* ArcSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936499EF1FE7C1620007D7BB /* ArcSliderView.m */; };
 		9364E74C1F5646BF00FC9980 /* CZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7411F5646BF00FC9980 /* CZLAppDelegate.m */; };
 		9364E74D1F5646BF00FC9980 /* CZLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7431F5646BF00FC9980 /* CZLBaseViewController.m */; };
@@ -48,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		932B35361FF0A532009BA104 /* CZLTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLTestViewController.h; sourceTree = "<group>"; };
+		932B35371FF0A532009BA104 /* CZLTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLTestViewController.m; sourceTree = "<group>"; };
+		932B35391FF0A5B5009BA104 /* CZLGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLGraphics.h; sourceTree = "<group>"; };
+		932B353A1FF0A5B5009BA104 /* CZLGraphics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLGraphics.m; sourceTree = "<group>"; };
 		936499EE1FE7C1610007D7BB /* ArcSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcSliderView.h; sourceTree = "<group>"; };
 		936499EF1FE7C1620007D7BB /* ArcSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcSliderView.m; sourceTree = "<group>"; };
 		9364E7401F5646BF00FC9980 /* CZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLAppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +155,8 @@
 				9364E7561F566D1400FC9980 /* CZLOperateSqlViewController.m */,
 				9364E7581F566D4800FC9980 /* CZLSQLite3TestViewController.h */,
 				9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */,
+				932B35361FF0A532009BA104 /* CZLTestViewController.h */,
+				932B35371FF0A532009BA104 /* CZLTestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +175,8 @@
 				936499EF1FE7C1620007D7BB /* ArcSliderView.m */,
 				93A65F231F385C50002E4A28 /* CZLTestView.h */,
 				93A65F241F385C50002E4A28 /* CZLTestView.m */,
+				932B35391FF0A5B5009BA104 /* CZLGraphics.h */,
+				932B353A1FF0A5B5009BA104 /* CZLGraphics.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -474,6 +484,8 @@
 				93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */,
 				9364E7571F566D1400FC9980 /* CZLOperateSqlViewController.m in Sources */,
 				93A65F251F385C50002E4A28 /* CZLTestView.m in Sources */,
+				932B35381FF0A532009BA104 /* CZLTestViewController.m in Sources */,
+				932B353B1FF0A5B5009BA104 /* CZLGraphics.m in Sources */,
 				93A65F311F38651F002E4A28 /* UIColor+CZLCategory.m in Sources */,
 				9364E74C1F5646BF00FC9980 /* CZLAppDelegate.m in Sources */,
 				9364E7501F5646BF00FC9980 /* CZLNavigationController.m in Sources */,

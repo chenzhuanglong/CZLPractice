@@ -18,12 +18,13 @@ class ZLMineTableViewCell: UITableViewCell {
         // 设置选中cell时无高亮等效果
         self.selectionStyle = .none
         self.backgroundColor = RandomColor
-        
+    
         mineLabel.textColor = RandomColor
         mineLabel.font = UIFont.systemFont(ofSize: 20)
         mineLabel.textAlignment = .center
         mineLabel.frame = CGRect.init(x: 0, y: 0, width: ZLScreenWidth, height: 100)
         self.addSubview(mineLabel)
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

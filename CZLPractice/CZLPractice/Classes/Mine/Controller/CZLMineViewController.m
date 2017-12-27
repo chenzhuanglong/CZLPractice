@@ -8,6 +8,7 @@
 
 #import "CZLMineViewController.h"
 #import "CZLSQLite3TestViewController.h"
+#import "CZLTestViewController.h"
 
 @interface CZLMineViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -81,9 +82,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.row == 0){
-        CZLSQLite3TestViewController *VC = [CZLSQLite3TestViewController new];
-        VC.title = @"哈哈";
-        [self.navigationController pushViewController:VC animated:YES];
+        CZLTestViewController *testVC = [[CZLTestViewController alloc]init];
+        testVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:testVC animated:YES];
+     
+    }else if(indexPath.row == 1){
+        
+
     }
 
 }

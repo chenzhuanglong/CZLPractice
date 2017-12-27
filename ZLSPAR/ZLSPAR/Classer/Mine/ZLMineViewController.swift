@@ -26,6 +26,7 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "我的";
         self.loadData();
     }
     
