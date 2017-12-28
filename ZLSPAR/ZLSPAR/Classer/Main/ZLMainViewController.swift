@@ -19,19 +19,11 @@ class ZLMainViewController: ZLBaseViewController {
         self.view.addSubview(mainButton);
         //传递触摸对象（即点击的按钮），需要在定义action参数时，方法名称后面带上冒号
         mainButton.addTarget(self, action:#selector(tapped(_:)), for:.touchUpInside)
-        
-        
     }
     
     @objc func tapped(_ button:UIButton) {
         button.backgroundColor = RandomColor;
         
-//        let alertController = UIAlertController(title: "标题", message: "这个是UIAlertController的默认样式", preferredStyle: .alert)
-//        let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
-//        let okAction = UIAlertAction(title: "好的", style: .default, handler:nil)
-//        alertController.addAction(cancelAction)
-//        alertController.addAction(okAction)
-//        self.present(alertController, animated: true, completion: nil)
         
         let domeVC =  ZLDomeViewController()
         domeVC.hidesBottomBarWhenPushed = true;

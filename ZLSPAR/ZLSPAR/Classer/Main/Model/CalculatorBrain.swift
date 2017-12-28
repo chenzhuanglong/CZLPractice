@@ -8,10 +8,6 @@
 
 import Foundation
 
-func changSign(operand: Double) -> Double {
-    return -operand
-}
-
 struct CalculatorBrain {
     
     private var accumulator: Double?
@@ -29,13 +25,13 @@ struct CalculatorBrain {
         "√"     : Operation.unaryOperation(sqrt),
         "cos"   : Operation.unaryOperation(cos),
         "tan"   : Operation.unaryOperation(tan),
-        "😀"    : Operation.unaryOperation(changSign),
-//        "+"     : Operation.binaryOperation(),
-//        "-"     : Operation.binaryOperation(),
-//        "x"     : Operation.binaryOperation(),
-//        "÷"     : Operation.binaryOperation(),
-//        "÷"     : Operation.equals,
-    ]
+        "😀"    : Operation.unaryOperation({ -$0 }),
+        "+"     : Operation.binaryOperation({$0 + $1}),
+        "-"     : Operation.binaryOperation({$0 - $1}),
+        "⨉"     : Operation.binaryOperation({$0 * $1}),
+        "÷"     : Operation.binaryOperation({$0 / $1}),
+        "="     : Operation.equals,
+        ]
     
     
     mutating func performOperation(_ symbol: String) {
@@ -47,17 +43,39 @@ struct CalculatorBrain {
                 if accumulator != nil {
                     accumulator = function(accumulator!)
                 }
-                break
-            case .binaryOperation(_):
-                <#code#>
+            case .binaryOperation(let function):
+                if accumulator != nil {
+                    pendingBinaryOperation = PendingBinaryOperation(function: function, firstOperand: accumulator!)
+                    accumulator = nil
+                }
             case .equals:
-                <#code#>
+                performPendingBinaryOperation()
             }
         }
     }
     
+    private mutating func performPendingBinaryOperation() {
+        if pendingBinaryOperation != nil && accumulator != nil {
+            accumulator = pendingBinaryOperation!.perform(with: accumulator!)
+            pendingBinaryOperation = nil
+        }
+    }
+    
+    private var pendingBinaryOperation: PendingBinaryOperation?
+    
+    private struct PendingBinaryOperation {
+        let function: (Double,Double) -> Double
+        let firstOperand: Double
+        func perform(with secondOperand: Double) -> Double {
+            return function(firstOperand, secondOperand)
+            
+        }
+        
+    }
+    
+    
     mutating func  setOperand(_ operand: Double) {
-          accumulator = operand
+        accumulator = operand
     }
     
     var result: Double? {
