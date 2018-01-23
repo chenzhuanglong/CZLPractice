@@ -39,3 +39,65 @@ private (私有变量)
 mutating (变异)
 
 
+Optional (可选项)
+defaulting
+1.作为泛型枚举定义
+enum Optional<T> {  // 相当于关联值的占位符
+    case none
+    case some(T)
+}
+
+Tuples(元组)
+Range T必须是Comparable,可以比较的 ..< ...
+struct Range<T> {
+    var startIndex: T
+    var endIndex: T
+}
+CoutableRang
+ClosedCountableRang
+stride(from: 0.2, to: 3.4, by: 0.2)
+for in
+
+classes(类)
+class ViewController : .. {
+
+}
+structures(结构体)
+struct CalculatorBrain {
+
+}
+enums(枚举)
+enum Op {
+
+}
+protocol(协议)
+不同:1.类可以指明它的父类(类可以继承)
+        2.枚举不能储存属性(枚举把它的数据保存在关联值中,所以不能有任何储存属性,但是他可以有计算属性并且它们有函数),枚举(一般不用初始化).
+        3.结构体和枚举是值类型,类是引用类型.
+值类型:通过拷贝来传递使用,并且存储在栈中
+用一个指针指向他,当你把它传送到函数中或将他分配给另外一个变量之类的东西时你只是在传递指向它的指针.
+<!--当你把它作为参数传送它时它被复制了,甚至如果你仅仅是把它,分配给其他变量或者是函数都会拷贝-->
+
+引用类型:
+相同:1.类与结构体需要初始化
+functional programming
+
+
+override : 重写父类方法使用
+final : 标记父类 子类不允许重写
+static:Swift中标识“类型范围作用域”,用于修饰存储属性,static修饰的存储属性称为静态变量(常量)，不可被重写
+
+properties(属性):
+
+属性观察器:
+var someStoredProperty: Int = 42 {
+willSet { newValue is the new value }
+didSet { oldValue is the old value }
+}
+
+override var inheritedProperty: String {
+willSet { newValue is the new value }
+didSet { oldValue is the old value }
+}
+
+

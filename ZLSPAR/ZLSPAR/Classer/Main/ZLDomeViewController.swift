@@ -16,8 +16,13 @@ class ZLDomeViewController: ZLBaseViewController {
     var userIsInTheMiddleOfTypping: Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true;
         self.title = "DOME"
+//        CountableRange
         
+        for i in stride(from: 0.2, to: 3.4, by: 0.2) {
+            print(i)
+        }
     }
     
     @IBAction func touchDigit(_ sender: UIButton) {

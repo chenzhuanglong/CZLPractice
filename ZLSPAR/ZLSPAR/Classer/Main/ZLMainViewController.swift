@@ -26,7 +26,9 @@ class ZLMainViewController: ZLBaseViewController {
         
         
         let domeVC =  ZLDomeViewController()
+
         domeVC.hidesBottomBarWhenPushed = true;
+        
         self.navigationController?.pushViewController(domeVC, animated: true);
             print(button.size,button.y,button.x,button.origin,button.top,button.bottom,button.left,button.right,button.centerY,button.centerX)
     }
