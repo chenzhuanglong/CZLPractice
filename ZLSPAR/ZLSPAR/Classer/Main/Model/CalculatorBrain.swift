@@ -68,7 +68,6 @@ struct CalculatorBrain {
         let firstOperand: Double
         func perform(with secondOperand: Double) -> Double {
             return function(firstOperand, secondOperand)
-            
         }
         
     }
@@ -82,5 +81,7 @@ struct CalculatorBrain {
             return accumulator
         }
     }
+    
+
     
 }

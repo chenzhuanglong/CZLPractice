@@ -29,9 +29,9 @@ class (类)
 struct (结构体)
 String Double Dictionary Array 都是结构体
 class 与 struct 区别:
-1.类可以继承,结构体不能
-2.类存储在堆中通过指针传递(引用类型),结构体存储在栈中通过拷贝值传递(值类型)
-3.struct (结构体) 内方法或属性,当你在某个方法内部,需要修改他的值,必须加上关键字mutating,告诉这个方法可以修改结构体的值
+>1.类可以继承,结构体不能
+>2.类存储在堆中通过指针传递(引用类型),结构体存储在栈中通过拷贝值传递(值类型)
+>3.struct (结构体) 内方法或属性,当你在某个方法内部,需要修改他的值,必须加上关键字mutating,告诉这个方法可以修改结构体的值
 
 private (私有变量)
 机构体会自动提供一个构造器通过这个构造器来初始化所有未初始化的属性
@@ -71,9 +71,9 @@ enum Op {
 
 }
 protocol(协议)
-不同:1.类可以指明它的父类(类可以继承)
-        2.枚举不能储存属性(枚举把它的数据保存在关联值中,所以不能有任何储存属性,但是他可以有计算属性并且它们有函数),枚举(一般不用初始化).
-        3.结构体和枚举是值类型,类是引用类型.
+>不同:1.类可以指明它的父类(类可以继承)
+>        2.枚举不能储存属性(枚举把它的数据保存在关联值中,所以不能有任何储存属性,但是他可以有计算属性并且它们有函数),枚举(一般不用初始化).
+ >       3.结构体和枚举是值类型,类是引用类型.
 值类型:通过拷贝来传递使用,并且存储在栈中
 用一个指针指向他,当你把它传送到函数中或将他分配给另外一个变量之类的东西时你只是在传递指向它的指针.
 <!--当你把它作为参数传送它时它被复制了,甚至如果你仅仅是把它,分配给其他变量或者是函数都会拷贝-->
@@ -86,7 +86,18 @@ functional programming
 override : 重写父类方法使用
 final : 标记父类 子类不允许重写
 static:Swift中标识“类型范围作用域”,用于修饰存储属性,static修饰的存储属性称为静态变量(常量)，不可被重写
-
+lazy:
+Array:
+Dictionary:
+String:
+Unicode
+String.index
+startIndex
+NSObject
+NSNumber: 固定数字类型,并且做转换.通过这些类型的构造器来做类型转换
+Date:结构体
+Data:二进制数据,结构体.
+Initialization(构造器):
 properties(属性):
 
 属性观察器:
@@ -99,5 +110,12 @@ override var inheritedProperty: String {
 willSet { newValue is the new value }
 didSet { oldValue is the old value }
 }
+闭包
 
 
+
+UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"选择支付方式" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+
+UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+[alertController addAction:cancelAction];
+[self.viewController presentViewController:self.viewController animated:YES completion:nil];
