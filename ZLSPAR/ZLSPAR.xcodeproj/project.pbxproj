@@ -17,6 +17,7 @@
 		936AE2841FDBC6C800CD9F18 /* ZLUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2831FDBC6C800CD9F18 /* ZLUIColor+Extension.swift */; };
 		936AE2861FDBCE9A00CD9F18 /* ZLConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2851FDBCE9A00CD9F18 /* ZLConfiguration.swift */; };
 		936AE2881FDBD37100CD9F18 /* ZLScreenParmeters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE2871FDBD37100CD9F18 /* ZLScreenParmeters.swift */; };
+		93823CAB201ADB0300F0FDAC /* ZLFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93823CAA201ADB0300F0FDAC /* ZLFaceView.swift */; };
 		93872CAE1FF34396007C45F5 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93872CAD1FF34396007C45F5 /* CalculatorBrain.swift */; };
 		9393FC741FDE311200E50521 /* ZLUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */; };
 		9393FC771FDE6A1500E50521 /* ZLMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */; };
@@ -38,6 +39,7 @@
 		936AE2831FDBC6C800CD9F18 /* ZLUIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZLUIColor+Extension.swift"; sourceTree = "<group>"; };
 		936AE2851FDBCE9A00CD9F18 /* ZLConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLConfiguration.swift; sourceTree = "<group>"; };
 		936AE2871FDBD37100CD9F18 /* ZLScreenParmeters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLScreenParmeters.swift; sourceTree = "<group>"; };
+		93823CAA201ADB0300F0FDAC /* ZLFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFaceView.swift; sourceTree = "<group>"; };
 		93872CAD1FF34396007C45F5 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZLUIView+Extension.swift"; sourceTree = "<group>"; };
 		9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMineTableViewCell.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */,
+				93823CAA201ADB0300F0FDAC /* ZLFaceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				9393FC771FDE6A1500E50521 /* ZLMineTableViewCell.swift in Sources */,
 				9393FC741FDE311200E50521 /* ZLUIView+Extension.swift in Sources */,
 				936AE2861FDBCE9A00CD9F18 /* ZLConfiguration.swift in Sources */,
+				93823CAB201ADB0300F0FDAC /* ZLFaceView.swift in Sources */,
 				936AE25D1FDBB94900CD9F18 /* AppDelegate.swift in Sources */,
 				936AE2741FDBBB0600CD9F18 /* ZLTabBarController.swift in Sources */,
 				936AE2881FDBD37100CD9F18 /* ZLScreenParmeters.swift in Sources */,

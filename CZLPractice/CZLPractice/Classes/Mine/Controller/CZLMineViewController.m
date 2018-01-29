@@ -24,8 +24,6 @@
     [self loadData];
     
     self.title = @"我的";
-    
- 
 }
 - (void)viewSafeAreaInsetsDidChange {
     [super viewSafeAreaInsetsDidChange];
@@ -34,6 +32,7 @@
 - (UITableView *)middleTableView {
     if (!_middleTableView){
         UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,[[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) style:UITableViewStylePlain];
+        tableView.backgroundColor = [UIColor randomColor];
         tableView.showsVerticalScrollIndicator = NO;
         tableView.showsHorizontalScrollIndicator = NO;
         tableView.estimatedSectionHeaderHeight = 0;
@@ -42,6 +41,20 @@
         tableView.delegate = self;
         [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableView class])];
         [self.view addSubview:tableView];
+        
+        if (@available(iOS 11.0, *)) {
+            NSLayoutConstraint *top = [tableView.topAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor];
+            NSLayoutConstraint *bottom = [tableView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor];
+            NSLayoutConstraint *left = [tableView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor];
+            NSLayoutConstraint *right = [tableView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor];
+            [NSLayoutConstraint activateConstraints:@[top, bottom, left, right]];
+        } else {
+            NSLayoutConstraint *top = [tableView.topAnchor constraintEqualToAnchor:self.topLayoutGuide.bottomAnchor];
+            NSLayoutConstraint *bottom = [tableView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor];
+            NSLayoutConstraint *left = [tableView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor];
+            NSLayoutConstraint *right = [tableView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor];
+            [NSLayoutConstraint activateConstraints:@[top, bottom, left, right]];
+        }
         _middleTableView = tableView;
     }
     return _middleTableView;
@@ -56,7 +69,7 @@
 }
 
 - (void)loadData {
-    self.middleData = @[@"测试一",@"测试二",@"测试三",@"测试四",@"测试五",@"测试六"];
+    self.middleData = @[@"测试一",@"测试二",@"测试三",@"测试四",@"测试五",@"测试六",@"测试六",@"测试六",@"测试六",@"测试六",@"测试六",@"测试六",@"测试六"];
     [self.middleTableView reloadData];
 }
 

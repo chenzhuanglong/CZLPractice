@@ -119,3 +119,25 @@ UIAlertController *alertController = [UIAlertController alertControllerWithTitle
 UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
 [alertController addAction:cancelAction];
 [self.viewController presentViewController:self.viewController animated:YES completion:nil];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

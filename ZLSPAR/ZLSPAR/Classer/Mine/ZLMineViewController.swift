@@ -10,13 +10,21 @@ import UIKit
 
 class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableViewDataSource {
     
+    lazy var faceView : ZLFaceView = {
+       let faceView = ZLFaceView.init(frame: self.view.bounds)
+        //view 内容取消拉伸
+        faceView.contentMode = .redraw
+        self.view.addSubview(faceView)
+        return faceView
+    }()
+    
     lazy var tableView : UITableView = {
         let tableView = UITableView.init(frame: CGRect.init(x: 0, y: 64, width: ZLScreenWidth, height: ZLScreenHeight - 64 - 44), style: .plain)
         tableView.delegate = self
         tableView.dataSource = self
         self.view.addSubview(tableView)
         
-        return tableView;
+        return tableView
     }()
     
     lazy var data : NSMutableArray = {
@@ -36,8 +44,8 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
         for dic in array {
             data.add(dic)
         }
-        
-        tableView.reloadData()
+        faceView.backgroundColor = RandomColor
+//        tableView.reloadData()
     }
     
 

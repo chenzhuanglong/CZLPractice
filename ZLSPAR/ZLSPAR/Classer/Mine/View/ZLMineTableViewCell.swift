@@ -13,6 +13,8 @@ class ZLMineTableViewCell: UITableViewCell {
 
     let mineLabel : UILabel = UILabel.init()
     
+
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         // 设置选中cell时无高亮等效果
