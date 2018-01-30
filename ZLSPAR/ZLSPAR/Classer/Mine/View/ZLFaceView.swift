@@ -12,15 +12,26 @@ import UIKit
 class ZLFaceView: UIView {
     
 //    @IBInspectable
-    var scale : CGFloat = 0.9
+    var scale : CGFloat = 0.9 { didSet { setNeedsDisplay() } }
     
-    var eyesOpen : Bool = false
+    var eyesOpen : Bool = false { didSet { setNeedsDisplay() } }
     
-    var mouthCurvature: Double = -0.5
+    var mouthCurvature: Double = -0.5 { didSet { setNeedsDisplay() } }
     
-    var lineWidth: CGFloat = 5.0
+    var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }
     
-    var faceColor : UIColor = UIColor.blue
+    var faceColor : UIColor = UIColor.blue { didSet { setNeedsDisplay() } }
+    
+    
+   @objc func changeScale(byReactingTo pinchRecognizer:UIPinchGestureRecognizer) {
+        switch pinchRecognizer.state {
+        case .changed,.ended:
+            scale *= pinchRecognizer.scale
+            pinchRecognizer.scale = 1
+        default:
+            break
+        }
+    }
     
     //圆脸 view 半径
     private var skullRadius:CGFloat {

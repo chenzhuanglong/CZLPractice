@@ -12,7 +12,35 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
     
     var faceView: ZLFaceView! {
         didSet {
+            let handler = #selector(ZLFaceView.changeScale(byReactingTo:))
+            let pinchRecognizer = UIPinchGestureRecognizer(target: faceView, action: handler)
+            faceView.addGestureRecognizer(pinchRecognizer)
+            let  tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(toggleEyes(byReactingTo:)))
+            tapRecognizer.numberOfTapsRequired = 1
+             faceView.addGestureRecognizer(tapRecognizer)
+            let  swipeUpRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(increaseHappiness))
+            swipeUpRecognizer.direction = .up
+            faceView.addGestureRecognizer(swipeUpRecognizer)
+            
+            let  swipeDownRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(decreaseHappiness))
+            swipeDownRecognizer.direction = .down
+            faceView.addGestureRecognizer(swipeDownRecognizer)
             updateUI()
+        }
+    }
+    
+   @objc func increaseHappiness() {
+        expression = expression.happier
+    }
+    
+   @objc func decreaseHappiness() {
+        expression = expression.sadder
+    }
+    
+   @objc func toggleEyes(byReactingTo tapRecognizer: UIPinchGestureRecognizer){
+        if tapRecognizer.state == .ended {
+            let eyes: ZLFaclalExpression.Eyes = (expression.eyes == .closed) ? .open : .closed
+            expression = ZLFaclalExpression(eyes: eyes, mouth: expression.mouth)
         }
     }
 
