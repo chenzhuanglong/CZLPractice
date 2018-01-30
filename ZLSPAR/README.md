@@ -121,7 +121,7 @@ UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIA
 [self.viewController presentViewController:self.viewController animated:YES completion:nil];
 
 
-
+抽象类(abstract class) 它的目的就是作为其他类的父类
 
 
 

@@ -21,6 +21,7 @@
 		93872CAE1FF34396007C45F5 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93872CAD1FF34396007C45F5 /* CalculatorBrain.swift */; };
 		9393FC741FDE311200E50521 /* ZLUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */; };
 		9393FC771FDE6A1500E50521 /* ZLMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */; };
+		93964E2C201EF3A600D3CCC2 /* ZLFaclalExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93964E2B201EF3A600D3CCC2 /* ZLFaclalExpression.swift */; };
 		93BA3C821FF1FDAD000B923A /* ZLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BA3C811FF1FDAD000B923A /* ZLNavigationController.swift */; };
 		93BA3C851FF21ED4000B923A /* ZLDomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BA3C831FF21ED4000B923A /* ZLDomeViewController.swift */; };
 		93BA3C861FF21ED4000B923A /* ZLDomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BA3C841FF21ED4000B923A /* ZLDomeViewController.xib */; };
@@ -43,6 +44,7 @@
 		93872CAD1FF34396007C45F5 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZLUIView+Extension.swift"; sourceTree = "<group>"; };
 		9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMineTableViewCell.swift; sourceTree = "<group>"; };
+		93964E2B201EF3A600D3CCC2 /* ZLFaclalExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFaclalExpression.swift; sourceTree = "<group>"; };
 		93BA3C7F1FF1E9B6000B923A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93BA3C811FF1FDAD000B923A /* ZLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNavigationController.swift; sourceTree = "<group>"; };
 		93BA3C831FF21ED4000B923A /* ZLDomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDomeViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		935EB8BD1FDF890D0022E571 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				93964E2B201EF3A600D3CCC2 /* ZLFaclalExpression.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				9393FC741FDE311200E50521 /* ZLUIView+Extension.swift in Sources */,
 				936AE2861FDBCE9A00CD9F18 /* ZLConfiguration.swift in Sources */,
 				93823CAB201ADB0300F0FDAC /* ZLFaceView.swift in Sources */,
+				93964E2C201EF3A600D3CCC2 /* ZLFaclalExpression.swift in Sources */,
 				936AE25D1FDBB94900CD9F18 /* AppDelegate.swift in Sources */,
 				936AE2741FDBBB0600CD9F18 /* ZLTabBarController.swift in Sources */,
 				936AE2881FDBD37100CD9F18 /* ZLScreenParmeters.swift in Sources */,

@@ -10,13 +10,41 @@ import UIKit
 
 class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableViewDataSource {
     
-    lazy var faceView : ZLFaceView = {
-       let faceView = ZLFaceView.init(frame: self.view.bounds)
-        //view 内容取消拉伸
-        faceView.contentMode = .redraw
-        self.view.addSubview(faceView)
-        return faceView
-    }()
+    var faceView: ZLFaceView! {
+        didSet {
+            updateUI()
+        }
+    }
+
+    
+//    lazy var faceView : ZLFaceView = {
+//       let faceView = ZLFaceView.init(frame: self.view.bounds)
+//        //view 内容取消拉伸
+//        faceView.contentMode = .redraw
+//        self.view.addSubview(faceView)
+//        return faceView
+//    }()
+
+    var expression = ZLFaclalExpression(eyes:.closed, mouth:.frown) {
+        didSet {
+            updateUI()
+        }
+    }
+    
+    private func updateUI() {
+        switch expression.eyes {
+        case .open:
+            faceView?.eyesOpen = true
+        case .closed:
+            faceView?.eyesOpen = false
+        case .squinting:
+            faceView?.eyesOpen = false
+        }
+        faceView?.mouthCurvature = mouthCurvatures[expression.mouth] ?? 0.0
+    }
+    
+    private let mouthCurvatures = [ZLFaclalExpression.Mouth.grin:0.5,.frown: -1.0, .smile:1.0,.neutral: 0.0,.smirk:-0.5]
+    
     
     lazy var tableView : UITableView = {
         let tableView = UITableView.init(frame: CGRect.init(x: 0, y: 64, width: ZLScreenWidth, height: ZLScreenHeight - 64 - 44), style: .plain)
@@ -35,7 +63,13 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "我的";
-        self.loadData();
+//        self.loadData();
+        
+        faceView =  ZLFaceView(frame: self.view.bounds)
+        faceView?.backgroundColor = RandomColor
+        faceView?.contentMode = .redraw
+        self.view.addSubview(faceView!)
+    
     }
     
     func loadData() {
@@ -44,7 +78,7 @@ class ZLMineViewController: ZLBaseViewController,UITableViewDelegate,UITableView
         for dic in array {
             data.add(dic)
         }
-        faceView.backgroundColor = RandomColor
+      
 //        tableView.reloadData()
     }
     
