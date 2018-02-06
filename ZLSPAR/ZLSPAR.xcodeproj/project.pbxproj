@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93283A982022AE1100A0E2F6 /* ZLEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93283A972022AE1100A0E2F6 /* ZLEmotionsViewController.swift */; };
 		936AE25D1FDBB94900CD9F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936AE25C1FDBB94900CD9F18 /* AppDelegate.swift */; };
 		936AE2641FDBB94900CD9F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936AE2631FDBB94900CD9F18 /* Assets.xcassets */; };
 		936AE2671FDBB94900CD9F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936AE2651FDBB94900CD9F18 /* LaunchScreen.storyboard */; };
@@ -22,12 +23,32 @@
 		9393FC741FDE311200E50521 /* ZLUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */; };
 		9393FC771FDE6A1500E50521 /* ZLMineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */; };
 		93964E2C201EF3A600D3CCC2 /* ZLFaclalExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93964E2B201EF3A600D3CCC2 /* ZLFaclalExpression.swift */; };
+		939F55B72022BD7A005FF706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F55B62022BD7A005FF706 /* AppDelegate.swift */; };
+		939F55B92022BD7A005FF706 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F55B82022BD7A005FF706 /* FaceViewController.swift */; };
+		939F55BC2022BD7A005FF706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939F55BA2022BD7A005FF706 /* Main.storyboard */; };
+		939F55BE2022BD7A005FF706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939F55BD2022BD7A005FF706 /* Assets.xcassets */; };
+		939F55C12022BD7A005FF706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939F55BF2022BD7A005FF706 /* LaunchScreen.storyboard */; };
+		939F55C72022BE0F005FF706 /* ZLEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F55C62022BE0F005FF706 /* ZLEmotionsViewController.swift */; };
 		93BA3C821FF1FDAD000B923A /* ZLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BA3C811FF1FDAD000B923A /* ZLNavigationController.swift */; };
 		93BA3C851FF21ED4000B923A /* ZLDomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BA3C831FF21ED4000B923A /* ZLDomeViewController.swift */; };
 		93BA3C861FF21ED4000B923A /* ZLDomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BA3C841FF21ED4000B923A /* ZLDomeViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		93283AAB2022B79E00A0E2F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		93283A972022AE1100A0E2F6 /* ZLEmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLEmotionsViewController.swift; sourceTree = "<group>"; };
 		936AE2591FDBB94900CD9F18 /* ZLSPAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSPAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936AE25C1FDBB94900CD9F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		936AE2631FDBB94900CD9F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +66,14 @@
 		9393FC731FDE311200E50521 /* ZLUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZLUIView+Extension.swift"; sourceTree = "<group>"; };
 		9393FC761FDE6A1500E50521 /* ZLMineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLMineTableViewCell.swift; sourceTree = "<group>"; };
 		93964E2B201EF3A600D3CCC2 /* ZLFaclalExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLFaclalExpression.swift; sourceTree = "<group>"; };
+		939F55B42022BD7A005FF706 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939F55B62022BD7A005FF706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		939F55B82022BD7A005FF706 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		939F55BB2022BD7A005FF706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		939F55BD2022BD7A005FF706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939F55C02022BD7A005FF706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		939F55C22022BD7A005FF706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939F55C62022BE0F005FF706 /* ZLEmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLEmotionsViewController.swift; sourceTree = "<group>"; };
 		93BA3C7F1FF1E9B6000B923A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93BA3C811FF1FDAD000B923A /* ZLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNavigationController.swift; sourceTree = "<group>"; };
 		93BA3C831FF21ED4000B923A /* ZLDomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDomeViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +88,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		939F55B12022BD7A005FF706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93283A942022ADBF00A0E2F6 /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				93283A972022AE1100A0E2F6 /* ZLEmotionsViewController.swift */,
+				93283A962022ADDC00A0E2F6 /* View */,
+				93283A952022ADD400A0E2F6 /* Model */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		93283A952022ADD400A0E2F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93283A962022ADDC00A0E2F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		935EB8BD1FDF890D0022E571 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +142,7 @@
 			children = (
 				93BA3C7F1FF1E9B6000B923A /* README.md */,
 				936AE25B1FDBB94900CD9F18 /* ZLSPAR */,
+				939F55B52022BD7A005FF706 /* FaceIt */,
 				936AE25A1FDBB94900CD9F18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				936AE2591FDBB94900CD9F18 /* ZLSPAR.app */,
+				939F55B42022BD7A005FF706 /* FaceIt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +183,7 @@
 				936AE27A1FDBBB7400CD9F18 /* Tools */,
 				936AE2791FDBBB6B00CD9F18 /* Other */,
 				936AE2781FDBBB4C00CD9F18 /* Mine */,
+				93283A942022ADBF00A0E2F6 /* Emotions */,
 				936AE2771FDBBB4000CD9F18 /* Main */,
 				936AE2721FDBBACE00CD9F18 /* Base */,
 			);
@@ -201,6 +264,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		939F55B52022BD7A005FF706 /* FaceIt */ = {
+			isa = PBXGroup;
+			children = (
+				939F55B62022BD7A005FF706 /* AppDelegate.swift */,
+				939F55B82022BD7A005FF706 /* FaceViewController.swift */,
+				939F55C62022BE0F005FF706 /* ZLEmotionsViewController.swift */,
+				939F55BA2022BD7A005FF706 /* Main.storyboard */,
+				939F55BD2022BD7A005FF706 /* Assets.xcassets */,
+				939F55BF2022BD7A005FF706 /* LaunchScreen.storyboard */,
+				939F55C22022BD7A005FF706 /* Info.plist */,
+			);
+			path = FaceIt;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +288,7 @@
 				936AE2551FDBB94900CD9F18 /* Sources */,
 				936AE2561FDBB94900CD9F18 /* Frameworks */,
 				936AE2571FDBB94900CD9F18 /* Resources */,
+				93283AAB2022B79E00A0E2F6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -219,6 +297,23 @@
 			name = ZLSPAR;
 			productName = ZLSPAR;
 			productReference = 936AE2591FDBB94900CD9F18 /* ZLSPAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		939F55B32022BD7A005FF706 /* FaceIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939F55C52022BD7A005FF706 /* Build configuration list for PBXNativeTarget "FaceIt" */;
+			buildPhases = (
+				939F55B02022BD7A005FF706 /* Sources */,
+				939F55B12022BD7A005FF706 /* Frameworks */,
+				939F55B22022BD7A005FF706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceIt;
+			productName = FaceIt;
+			productReference = 939F55B42022BD7A005FF706 /* FaceIt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -233,6 +328,10 @@
 				ORGANIZATIONNAME = "晶石";
 				TargetAttributes = {
 					936AE2581FDBB94900CD9F18 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					939F55B32022BD7A005FF706 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -252,6 +351,7 @@
 			projectRoot = "";
 			targets = (
 				936AE2581FDBB94900CD9F18 /* ZLSPAR */,
+				939F55B32022BD7A005FF706 /* FaceIt */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +364,16 @@
 				93BA3C861FF21ED4000B923A /* ZLDomeViewController.xib in Resources */,
 				936AE2671FDBB94900CD9F18 /* LaunchScreen.storyboard in Resources */,
 				936AE2641FDBB94900CD9F18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F55B22022BD7A005FF706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F55C12022BD7A005FF706 /* LaunchScreen.storyboard in Resources */,
+				939F55BE2022BD7A005FF706 /* Assets.xcassets in Resources */,
+				939F55BC2022BD7A005FF706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +396,20 @@
 				93BA3C821FF1FDAD000B923A /* ZLNavigationController.swift in Sources */,
 				936AE2841FDBC6C800CD9F18 /* ZLUIColor+Extension.swift in Sources */,
 				936AE27C1FDBBC0F00CD9F18 /* ZLMineViewController.swift in Sources */,
+				93283A982022AE1100A0E2F6 /* ZLEmotionsViewController.swift in Sources */,
 				93872CAE1FF34396007C45F5 /* CalculatorBrain.swift in Sources */,
 				936AE27E1FDBBC1C00CD9F18 /* ZLMainViewController.swift in Sources */,
 				93BA3C851FF21ED4000B923A /* ZLDomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939F55B02022BD7A005FF706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F55B92022BD7A005FF706 /* FaceViewController.swift in Sources */,
+				939F55C72022BE0F005FF706 /* ZLEmotionsViewController.swift in Sources */,
+				939F55B72022BD7A005FF706 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +420,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				936AE2661FDBB94900CD9F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		939F55BA2022BD7A005FF706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939F55BB2022BD7A005FF706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		939F55BF2022BD7A005FF706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939F55C02022BD7A005FF706 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -416,6 +553,7 @@
 		936AE26C1FDBB94900CD9F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +571,7 @@
 		936AE26D1FDBB94900CD9F18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +580,36 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.ZLSPAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		939F55C32022BD7A005FF706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L7QK6ZT;
+				INFOPLIST_FILE = FaceIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihan.FaceIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F55C42022BD7A005FF706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L7QK6ZT;
+				INFOPLIST_FILE = FaceIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihan.FaceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +633,15 @@
 			buildConfigurations = (
 				936AE26C1FDBB94900CD9F18 /* Debug */,
 				936AE26D1FDBB94900CD9F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939F55C52022BD7A005FF706 /* Build configuration list for PBXNativeTarget "FaceIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F55C32022BD7A005FF706 /* Debug */,
+				939F55C42022BD7A005FF706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
