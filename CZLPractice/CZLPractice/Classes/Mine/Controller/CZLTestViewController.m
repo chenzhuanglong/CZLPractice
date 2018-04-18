@@ -9,7 +9,13 @@
 #import "CZLTestViewController.h"
 #import "CZLGraphics.h"
 
-@interface CZLTestViewController ()
+
+
+@interface CZLTestViewController ()<UITextFieldDelegate>
+
+
+@property (nonatomic, strong) UITextField *textField;
+
 
 @end
 
@@ -21,6 +27,7 @@
     UIView *contentView = [[UIView alloc] initWithFrame:CGRectZero];
     contentView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:contentView];
+    
     
     contentView.translatesAutoresizingMaskIntoConstraints = NO;//使用autolayout
     if (@available(iOS 11.0, *)) {
@@ -36,12 +43,10 @@
         NSLayoutConstraint *right = [contentView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor];
         [NSLayoutConstraint activateConstraints:@[top, bottom, left, right]];
     }
-    
-    
-  
+//
+
     
 }
-
 
 
 
