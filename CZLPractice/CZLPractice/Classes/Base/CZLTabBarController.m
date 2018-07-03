@@ -8,8 +8,9 @@
 
 #import "CZLTabBarController.h"
 #import "CZLNavigationController.h"
-#import "CZLHomeViewController.h"
+
 #import "CZLMineViewController.h"
+#import "CZLPractice-Swift.h"
 
 
 @interface CZLTabBarController ()
@@ -25,8 +26,8 @@
 
 - (void)initNavigation {
     
-    CZLNavigationController *homeNavigationController = [[CZLNavigationController alloc]initWithRootViewController:[CZLHomeViewController new]];
-    [homeNavigationController setTabBarImage:@"" selectedImage:@"" title:@"首页"];
+    CZLNavigationController *homeNavigationController = [[CZLNavigationController alloc]initWithRootViewController:[CZLSwiftViewController new]];
+    [homeNavigationController setTabBarImage:@"" selectedImage:@"" title:@"SWIFT"];
     
     CZLNavigationController *mineNavigationController = [[CZLNavigationController alloc]initWithRootViewController:[CZLMineViewController new]];
     [mineNavigationController setTabBarImage:@"" selectedImage:@"" title:@"我的"];

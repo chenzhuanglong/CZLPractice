@@ -18,13 +18,13 @@
 		9364E7511F5646BF00FC9980 /* CZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E74B1F5646BF00FC9980 /* CZLTabBarController.m */; };
 		9364E7571F566D1400FC9980 /* CZLOperateSqlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7561F566D1400FC9980 /* CZLOperateSqlViewController.m */; };
 		9364E75A1F566D4800FC9980 /* CZLSQLite3TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */; };
-		9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E7221F384F440045942D /* CZLHomeViewController.m */; };
 		9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372E71C1F384F200045942D /* CZLMineViewController.m */; };
 		937660AF1F380B1D0063A961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660AE1F380B1D0063A961 /* main.m */; };
 		937660BA1F380B1D0063A961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937660B91F380B1D0063A961 /* Assets.xcassets */; };
 		937660BD1F380B1D0063A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937660BB1F380B1D0063A961 /* LaunchScreen.storyboard */; };
 		937660C81F380B1D0063A961 /* CZLPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660C71F380B1D0063A961 /* CZLPracticeTests.m */; };
 		937660D31F380B1D0063A961 /* CZLPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937660D21F380B1D0063A961 /* CZLPracticeUITests.m */; };
+		93774F5820EB483B00F9FFCE /* CZLSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93774F5720EB483B00F9FFCE /* CZLSwiftViewController.swift */; };
 		937BFCB31F5509D4004E360D /* CZLSQLiteApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 937BFCB21F5509D4004E360D /* CZLSQLiteApply.m */; };
 		937BFCB61F550CAA004E360D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 937BFCB51F550CAA004E360D /* libsqlite3.tbd */; };
 		93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A65F211F385B20002E4A28 /* UIView+CZLCategory.m */; };
@@ -74,8 +74,6 @@
 		9364E7591F566D4800FC9980 /* CZLSQLite3TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLSQLite3TestViewController.m; sourceTree = "<group>"; };
 		9372E71B1F384F200045942D /* CZLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLMineViewController.h; sourceTree = "<group>"; };
 		9372E71C1F384F200045942D /* CZLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLMineViewController.m; sourceTree = "<group>"; };
-		9372E7211F384F440045942D /* CZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLHomeViewController.h; sourceTree = "<group>"; };
-		9372E7221F384F440045942D /* CZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLHomeViewController.m; sourceTree = "<group>"; };
 		9372E7261F384F5E0045942D /* CZLHomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLHomeHeader.h; sourceTree = "<group>"; };
 		9372E7271F384F730045942D /* CZLMineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZLMineHeader.h; sourceTree = "<group>"; };
 		937660AA1F380B1D0063A961 /* CZLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +87,8 @@
 		937660CE1F380B1D0063A961 /* CZLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937660D21F380B1D0063A961 /* CZLPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZLPracticeUITests.m; sourceTree = "<group>"; };
 		937660D41F380B1D0063A961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93774F5620EB483B00F9FFCE /* CZLPractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CZLPractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		93774F5720EB483B00F9FFCE /* CZLSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZLSwiftViewController.swift; sourceTree = "<group>"; };
 		937BFCB11F5509D4004E360D /* CZLSQLiteApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLSQLiteApply.h; sourceTree = "<group>"; };
 		937BFCB21F5509D4004E360D /* CZLSQLiteApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLSQLiteApply.m; sourceTree = "<group>"; };
 		937BFCB51F550CAA004E360D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -184,8 +184,8 @@
 		9372E7201F384F440045942D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9372E7211F384F440045942D /* CZLHomeViewController.h */,
-				9372E7221F384F440045942D /* CZLHomeViewController.m */,
+				93774F5720EB483B00F9FFCE /* CZLSwiftViewController.swift */,
+				93774F5620EB483B00F9FFCE /* CZLPractice-Bridging-Header.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -410,6 +410,7 @@
 				TargetAttributes = {
 					937660A91F380B1D0063A961 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					937660C21F380B1D0063A961 = {
@@ -477,8 +478,8 @@
 			files = (
 				9364E75A1F566D4800FC9980 /* CZLSQLite3TestViewController.m in Sources */,
 				9364E74E1F5646BF00FC9980 /* CZLCustomModel.m in Sources */,
+				93774F5820EB483B00F9FFCE /* CZLSwiftViewController.swift in Sources */,
 				9372E72D1F3858CC0045942D /* CZLMineViewController.m in Sources */,
-				9372E72C1F3858C80045942D /* CZLHomeViewController.m in Sources */,
 				9364E74D1F5646BF00FC9980 /* CZLBaseViewController.m in Sources */,
 				9364E74F1F5646BF00FC9980 /* CZLCustomView.m in Sources */,
 				93A65F221F385B21002E4A28 /* UIView+CZLCategory.m in Sources */,
@@ -646,12 +647,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CZLPractice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.CZLPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CZLPractice/Classes/Home/Controller/CZLPractice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -660,18 +666,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CZLPractice/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.CZLPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CZLPractice/Classes/Home/Controller/CZLPractice-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		937660DB1F380B1D0063A961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CZLPracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -684,6 +695,7 @@
 		937660DC1F380B1D0063A961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CZLPracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -696,6 +708,7 @@
 		937660DE1F380B1D0063A961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CZLPracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.CZLPracticeUITests;
@@ -707,6 +720,7 @@
 		937660DF1F380B1D0063A961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CZLPracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deren.CZLPracticeUITests;
